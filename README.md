@@ -1,14 +1,14 @@
 # InvenFarmer
 사용자 변경 부분
 
-코드 하단에 보면 아래와같이 있는데 
+코드 153줄 하단에 보면 아래와같이 있는데 
 
 셀레니움remote 이 따로 있으면 주소를 넣고 driver_type 을 remote 로 하고  local에서 진행시 local로 변경한다.
 
 인벤 아이디,비번, 텔레그램토큰,아이디 를 넣고 1~120초 의 딜레이를 넣었으니 변경이 필요하다면 변경하면 된다.
 
 
-if __name__ == '__main__':
+
     _host = 'http://127.71:4444/wd/hub'  # Selenium Remote 주소
     _uid = ''  # 인벤 아이디
     _passwd = ''  # 인벤 비밀번호
